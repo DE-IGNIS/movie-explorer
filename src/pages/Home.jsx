@@ -31,7 +31,7 @@ function Home() {
     if (movieSearch === "") {
       return alert("Enter a movie name");
     }
-    const url = `http://www.omdbapi.com/?t=${movieSearch}&apikey=${KEY}`;
+    const url = `https://www.omdbapi.com/?t=${movieSearch}&apikey=${KEY}`;
     try {
       const response = await fetch(url);
       if (!response.ok) {
