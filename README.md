@@ -67,9 +67,6 @@ Deploy to Vercel:
 ```bash
 vercel deploy
 ```
-
-```
-
 ### Happy Exploring! 🍿✨
 
 *Discover your next favorite movie today!*
