@@ -9,7 +9,7 @@ function MovieList() {
     return (
       <div>
         <p>No movie data found.</p>
-        <button onClick={() => navigate("/")}>Go Back</button>
+        <button onClick={() => navigate("/home")}>Go Back</button>
       </div>
     );
   }
